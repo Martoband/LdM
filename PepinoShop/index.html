@@ -1,0 +1,82 @@
+<!DOCTYPE html><!--para realizar comentarios
+para inizalizar un documento html, se hace de forma automática
+con "<!" y lanzando el DOCTYPE que te propone-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pepinos Manolo</h1>
+    <img src="pepino.avif" width="100" alt="Descripción de la imagen, tambien sirve para la audiodescripción" title="Un pepino">
+<ul><!--LISTA NO ORDENADA-->
+    <li>Pepino Albino</li>
+    <li>Pepino Moreno</li>
+    <li>Pepino Kirby</li>
+</ul>
+<ol><!--LISTA ORDENADA ESTÁNDAR-->
+    <li>Pepino Albino</li>
+    <li>Pepino Moreno</li>
+    <li>Pepino Kirby</li>
+</ol>
+<ol type ="A"><!--LISTA ORDENADA CON TYPE =ORDEN ALFABETICO-->
+    <li>Pepino Albino</li>
+    <li></li>
+    <li></li>
+</ol>
+
+<table border ="1">
+
+    <thead><!--CABECERA-->
+        <tr>
+            <th>Nº PEDIDO</th>
+            <th>FECHA</th>
+            <th>IMPORTE</th>
+            <th>VER</th>
+            <th colspan="2">ACCIÓN</th><!--Colspan modifica el valor del tamaño de la fila-->
+        </tr>
+    </thead>
+    <tbody><!--CUERPO-->
+        <tr>
+        <td>#1234</td>
+        <td>12/12/2026</td>
+        <td>126,25€</td>
+        <td><button type"button">Clic</button></td>
+        <td><button type "button">Editar</button></td>
+        <td><button type "button">Borrar</button></td>
+    </tr>
+    <tr>
+        <td>#1234</td>
+        <td>12/12/2026</td>
+        <td>126,25€</td>
+        <td><button type"button">Clic</button></td>
+        <td><button type "button">Editar</button></td>
+        <td><button type "button">Borrar</button></td>
+    </tr>
+
+    </tbody>
+    <tfoot><!--Pié de tabla. Le metemos 6 de longitud porque tenemos 6 td-->
+        <tr>
+            <td colspan=" 6">Total pedidos = x </td>
+        </tr>
+    </tfoot>
+</table>
+
+<br>
+<br>
+<br>
+<h3>Introduce datos de registro</h3>
+<form >
+<legend>Datos de registro</legend>
+<br>
+<label>Nombre:
+<input type="text" placeholder="Introduce tu nombre" required><!--placeholder añade texto por defecto, y también da mejoras por accesibilidad y por experiencia de usuario-->
+</label></form><!--Si cierras el label después del input, hace focus y te lleva a rellenar los campos si clicas en "Nombre"-->
+<br>
+<br>
+<button type="submit">Enviar</button>
+
+
+</body>
+</html>
