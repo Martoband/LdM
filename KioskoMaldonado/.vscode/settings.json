@@ -1,0 +1,8 @@
+{
+    "scm.compactFolders": true,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "inherit"
+}
